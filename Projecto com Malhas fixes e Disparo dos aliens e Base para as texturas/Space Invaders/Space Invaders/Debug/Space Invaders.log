@@ -1,0 +1,31 @@
+﻿Build started 09-05-2013 11:49:57.
+     1>Project "C:\Users\MiguelGeraldes\Dropbox\CG\Projecto com Malhas fixes e Disparo dos aliens e Base para as texturas ( nao as carrega)\Space Invaders\Space Invaders\Space Invaders.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Space Invaders.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\MiguelGeraldes\Desktop\lol\glut\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\SourceFiles\Alien1.cpp ..\SourceFiles\Alien2.cpp ..\SourceFiles\Alien3.cpp ..\SourceFiles\BMPLoader.cpp ..\SourceFiles\Escudo.cpp ..\SourceFiles\Gestor.cpp ..\SourceFiles\GlobalLighting.cpp ..\SourceFiles\Lighting.cpp ..\SourceFiles\Main.cpp ..\SourceFiles\MyCamera.cpp ..\SourceFiles\MyScreen.cpp ..\SourceFiles\Shot.cpp ..\SourceFiles\ShotAlien.cpp ..\SourceFiles\Spaceship.cpp
+         Spaceship.cpp
+         ShotAlien.cpp
+         Shot.cpp
+         MyScreen.cpp
+         MyCamera.cpp
+         Main.cpp
+         Lighting.cpp
+         GlobalLighting.cpp
+         Gestor.cpp
+     1>c:\users\miguelgeraldes\dropbox\cg\projecto com malhas fixes e disparo dos aliens e base para as texturas ( nao as carrega)\space invaders\sourcefiles\gestor.cpp(374): error C2296: '+' : illegal, left operand has type 'void (__stdcall *)(GLfloat,GLfloat)'
+         Escudo.cpp
+         BMPLoader.cpp
+     1>c:\users\miguelgeraldes\dropbox\cg\projecto com malhas fixes e disparo dos aliens e base para as texturas ( nao as carrega)\space invaders\sourcefiles\bmploader.cpp(26): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'unsigned int', possible loss of data
+     1>c:\users\miguelgeraldes\dropbox\cg\projecto com malhas fixes e disparo dos aliens e base para as texturas ( nao as carrega)\space invaders\sourcefiles\bmploader.cpp(50): warning C4018: '<' : signed/unsigned mismatch
+         Alien3.cpp
+         Alien2.cpp
+         Alien1.cpp
+         Generating Code...
+     1>c:\users\miguelgeraldes\dropbox\cg\projecto com malhas fixes e disparo dos aliens e base para as texturas ( nao as carrega)\space invaders\sourcefiles\spaceship.cpp(16): warning C4715: 'Space_Invaders::Spaceship::Move_Right' : not all control paths return a value
+     1>c:\users\miguelgeraldes\dropbox\cg\projecto com malhas fixes e disparo dos aliens e base para as texturas ( nao as carrega)\space invaders\sourcefiles\spaceship.cpp(22): warning C4715: 'Space_Invaders::Spaceship::Move_Left' : not all control paths return a value
+     1>Done Building Project "C:\Users\MiguelGeraldes\Dropbox\CG\Projecto com Malhas fixes e Disparo dos aliens e Base para as texturas ( nao as carrega)\Space Invaders\Space Invaders\Space Invaders.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.93

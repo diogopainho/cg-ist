@@ -1,0 +1,20 @@
+﻿Build started 07-05-2013 22:48:34.
+     1>Project "C:\Users\Toshiba\Dropbox\CG\Projecto\lab0\lab0.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Projecto.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Debug\Projecto.unsuccessfulbuild".
+         Touching "Debug\Projecto.lastbuildstate".
+     1>Done Building Project "C:\Users\Toshiba\Dropbox\CG\Projecto\lab0\lab0.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.25

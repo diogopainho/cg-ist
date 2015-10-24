@@ -1,0 +1,31 @@
+﻿Build started 23-05-2013 16:24:13.
+     1>Project "C:\Users\MiguelGeraldes\Dropbox\CG\Projecto-4ºEntrega\lab0\lab0.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Projecto.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\MiguelGeraldes\Desktop\lol\glut\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Gestor.cpp Main.cpp Spaceship.cpp
+         Spaceship.cpp
+     1>c:\users\miguelgeraldes\dropbox\cg\projecto-4ºentrega\lab0\spaceship.hpp(11): error C2864: 'Space_Invaders::Spaceship::score' : only static const integral data members can be initialized within a class
+     1>c:\users\miguelgeraldes\dropbox\cg\projecto-4ºentrega\lab0\spaceship.hpp(12): error C2864: 'Space_Invaders::Spaceship::life' : only static const integral data members can be initialized within a class
+         Main.cpp
+     1>c:\users\miguelgeraldes\dropbox\cg\projecto-4ºentrega\lab0\spaceship.hpp(11): error C2864: 'Space_Invaders::Spaceship::score' : only static const integral data members can be initialized within a class
+     1>c:\users\miguelgeraldes\dropbox\cg\projecto-4ºentrega\lab0\spaceship.hpp(12): error C2864: 'Space_Invaders::Spaceship::life' : only static const integral data members can be initialized within a class
+         Gestor.cpp
+     1>c:\users\miguelgeraldes\dropbox\cg\projecto-4ºentrega\lab0\spaceship.hpp(11): error C2864: 'Space_Invaders::Spaceship::score' : only static const integral data members can be initialized within a class
+     1>c:\users\miguelgeraldes\dropbox\cg\projecto-4ºentrega\lab0\spaceship.hpp(12): error C2864: 'Space_Invaders::Spaceship::life' : only static const integral data members can be initialized within a class
+     1>c:\users\miguelgeraldes\dropbox\cg\projecto-4ºentrega\lab0\gestor.cpp(399): error C2086: 'char string[60]' : redefinition
+                 c:\users\miguelgeraldes\dropbox\cg\projecto-4ºentrega\lab0\gestor.cpp(384) : see declaration of 'string'
+     1>c:\users\miguelgeraldes\dropbox\cg\projecto-4ºentrega\lab0\gestor.cpp(400): error C2374: 'ambient' : redefinition; multiple initialization
+                 c:\users\miguelgeraldes\dropbox\cg\projecto-4ºentrega\lab0\gestor.cpp(385) : see declaration of 'ambient'
+     1>c:\users\miguelgeraldes\dropbox\cg\projecto-4ºentrega\lab0\gestor.cpp(401): error C2374: 'difuse' : redefinition; multiple initialization
+                 c:\users\miguelgeraldes\dropbox\cg\projecto-4ºentrega\lab0\gestor.cpp(386) : see declaration of 'difuse'
+     1>c:\users\miguelgeraldes\dropbox\cg\projecto-4ºentrega\lab0\gestor.cpp(407): error C2086: 'int len' : redefinition
+                 c:\users\miguelgeraldes\dropbox\cg\projecto-4ºentrega\lab0\gestor.cpp(392) : see declaration of 'len'
+     1>c:\users\miguelgeraldes\dropbox\cg\projecto-4ºentrega\lab0\gestor.cpp(407): error C2086: 'int i' : redefinition
+                 c:\users\miguelgeraldes\dropbox\cg\projecto-4ºentrega\lab0\gestor.cpp(392) : see declaration of 'i'
+         Generating Code...
+     1>Done Building Project "C:\Users\MiguelGeraldes\Dropbox\CG\Projecto-4ºEntrega\lab0\lab0.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.32
